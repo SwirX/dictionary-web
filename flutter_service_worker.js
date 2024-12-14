@@ -38,11 +38,11 @@ const RESOURCES = {"dictionary-web/assets/AssetManifest.bin": "f984915c2daafcd04
 "dictionary-web/version.json": "f198bf56fb1b7b58f4206f1bca3acac6"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = ["dictionary-app/main.dart.js",
+const CORE = ["main.dart.js",
 "index.html",
-"dictionary-app/flutter_bootstrap.js",
-"dictionary-app/assets/AssetManifest.bin.json",
-"dictionary-app/assets/FontManifest.json"];
+"flutter_bootstrap.js",
+"assets/AssetManifest.bin.json",
+"assets/FontManifest.json"];
 
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
