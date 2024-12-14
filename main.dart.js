@@ -839,7 +839,7 @@ var $async$WA=A.w(function(b,c){if(b===1)return A.r(c,r)
 while(true)switch(s){case 0:n={}
 l=t.Lk
 s=3
-return A.y(A.vM(a.B7("dictionary-web/FontManifest.json")),$async$WA)
+return A.y(A.vM(a.B7("FontManifest.json")),$async$WA)
 case 3:m=l.a(c)
 if(!m.gHG()){$.dE().$1("Font manifest does not exist at `"+m.a+"` - ignoring.")
 q=new A.xV(A.b([],t.z8))
